@@ -1,0 +1,104 @@
+<html>
+<head>
+    <script type="module">
+import RefreshRuntime from "/@react-refresh"
+RefreshRuntime.injectIntoGlobalHook(window)
+window.$RefreshReg$ = () => {}
+window.$RefreshSig$ = () => (type) => type
+window.__vite_plugin_react_preamble_installed__ = true
+</script>
+
+    <script type="module" src="/@vite/client"></script>
+
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+  <style type="text/css">.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: linear-gradient(79deg, #7439db, #6fc2c6 48%, #F7944D);
+}
+
+.auth-form-container, .login-form, .register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #7439db;
+}
+
+.link-btn {
+  background: none;
+  color: white;
+  text-decoration: underline;
+}</style></head>
+<body>
+    <div id="root"><div class="App"><div class="auth-form-container"><h2>Login</h2><form class="login-form"><label for="email">email</label><input type="email" placeholder="amanmahato29898@gmail.com" id="email" name="email" value=""><label for="password">password</label><input type="password" placeholder="********" id="password" name="password" value=""><button type="submit">Log In</button></form><a href='file1.html' class="link-btn">Don't have an account? Register here.</a></div></div></div>
+    <script type="module" src="/src/index.jsx"></script>
+		
+    <!--
+    This script places a badge on your repl's full-browser view back to your repl's cover
+    page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+    teal, blue, blurple, magenta, pink!
+    -->
+    <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer=""></script>
+  
+
+
+  <style>
+  #replit-badge {
+    position: absolute;
+    cursor: pointer;
+    bottom: 16px;
+    right: 16px;
+    z-index: 1000;
+  }
+
+  #replit-badge svg {
+    opacity: 0.5;
+    transition-property: opacity, transform;
+    transition: opacity 120ms, transform 120ms;
+    transition-timing-function: ease-out;
+  }
+
+  #replit-badge:hover svg {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  </style>
+  
+  
+  </body>
+</html>
